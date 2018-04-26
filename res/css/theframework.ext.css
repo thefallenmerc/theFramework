@@ -1,0 +1,75 @@
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+.bgOrange{
+    background-color: orange;
+}
+.bgWhite{
+    background-color: white;
+}
+label  {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+.textGrey{
+    color: #232323;
+}
+
+.hidden{
+    display: none;
+}
+
+.there{
+    visibility: hidden;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.centerDiv{
+    float: none;
+    margin: auto;
+}
+.width300{
+    max-width: 300px;
+}
+.width400{
+    max-width: 400px;
+}
+.width500{
+    max-width: 500px;
+}
+
+.vMargin8{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.vMargin16{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.shadow5{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+.shadow10{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.shadow15{
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+.pullRight{
+    float: right;
+}
+.pullLeft{
+    float: left;
+}
+
+
+.leftAlign{
+    text-align: left !important;
+}

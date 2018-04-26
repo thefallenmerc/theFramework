@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Framework</title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" href="res/css/theframework.css">
+	<script src="res/js/jquery.min.js"></script>
+	<script src="res/js/theframework.js"></script>
+</head>
+<body>
+<!--
+	
+	b.             8          .8. `8.`888b           ,8' 8 888888888o          .8.          8 888888888o.
+	888o.          8         .888. `8.`888b         ,8'  8 8888    `88.       .888.         8 8888    `88.
+	Y88888o.       8        :88888. `8.`888b       ,8'   8 8888     `88      :88888.        8 8888     `88
+	.`Y888888o.    8       . `88888. `8.`888b     ,8'    8 8888     ,88     . `88888.       8 8888     ,88
+	8o. `Y888888o. 8      .8. `88888. `8.`888b   ,8'     8 8888.   ,88'    .8. `88888.      8 8888.   ,88'
+	8`Y8o. `Y88888o8     .8`8. `88888. `8.`888b ,8'      8 8888888888     .8`8. `88888.     8 888888888P'
+	8   `Y8o. `Y8888    .8' `8. `88888. `8.`888b8'       8 8888    `88.  .8' `8. `88888.    8 8888`8b
+	8      `Y8o. `Y8   .8'   `8. `88888. `8.`888'        8 8888      88 .8'   `8. `88888.   8 8888 `8b.
+	8         `Y8o.`  .888888888. `88888. `8.`8'         8 8888    ,88'.888888888. `88888.  8 8888   `8b.
+	8            `Yo .8'       `8. `88888. `8.`          8 888888888P .8'       `8. `88888. 8 8888     `88.
+ -->
+
+	
+	<nav class="navbar">
+		<div class="navHead">
+			<a href="JavaScript:void(0)" class="noDeco linkActive"><b>THE FRAMEWORK</b></a>
+		</div>
+		<div class="navBody">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="typography.html">TYPOGRAPHY</a></li>				<li><a href="structure.html">STRUCTURE</a></li>
+				<li><a href="customization.html">customization</a></li>
+				<li class="dropHead"><a href="buttons.html">Buttons</a>
+					<ul>
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="buttons.html">Anchor Buttons</a></li>
+						<li><a href="buttons.html">Inverted Buttons</a></li>
+					</ul>
+				</li>
+				<li><a href="additionals.html">additionals</a></li>
+				<li><a href="table.html">TABLES</a></li><li><a href="forms.html">FORMS</a></li>
+				<li><a href="example.html">EXAMPLE</a></li>
+				<li><a href="error.html">Error</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</div>
+	</nav>
+	<hr>
+	<hr>
+<!--
+	
+	8 8888        8 8 8888888888            .8.          8 888888888o.      8 8888888888   8 888888888o.
+	8 8888        8 8 8888                 .888.         8 8888    `^888.   8 8888         8 8888    `88.
+	8 8888        8 8 8888                :88888.        8 8888        `88. 8 8888         8 8888     `88
+	8 8888        8 8 8888               . `88888.       8 8888         `88 8 8888         8 8888     ,88
+	8 8888        8 8 888888888888      .8. `88888.      8 8888          88 8 888888888888 8 8888.   ,88'
+	8 8888        8 8 8888             .8`8. `88888.     8 8888          88 8 8888         8 888888888P'
+	8 8888888888888 8 8888            .8' `8. `88888.    8 8888         ,88 8 8888         8 8888`8b
+	8 8888        8 8 8888           .8'   `8. `88888.   8 8888        ,88' 8 8888         8 8888 `8b.
+	8 8888        8 8 8888          .888888888. `88888.  8 8888    ,o88P'   8 8888         8 8888   `8b.
+	8 8888        8 8 888888888888 .8'       `8. `88888. 8 888888888P'      8 888888888888 8 8888     `88.
+ -->
+	<header class="row">
+		<h2>the framework</h2>
+	</header>
+	<hr>
+<!--
+	
+	    ,o888888o.        ,o888888o.     b.             8 8888888 8888888888 8 8888888888   b.             8 8888888 8888888888
+	   8888     `88.   . 8888     `88.   888o.          8       8 8888       8 8888         888o.          8       8 8888
+	,8 8888       `8. ,8 8888       `8b  Y88888o.       8       8 8888       8 8888         Y88888o.       8       8 8888
+	88 8888           88 8888        `8b .`Y888888o.    8       8 8888       8 8888         .`Y888888o.    8       8 8888
+	88 8888           88 8888         88 8o. `Y888888o. 8       8 8888       8 888888888888 8o. `Y888888o. 8       8 8888
+	88 8888           88 8888         88 8`Y8o. `Y88888o8       8 8888       8 8888         8`Y8o. `Y88888o8       8 8888
+	88 8888           88 8888        ,8P 8   `Y8o. `Y8888       8 8888       8 8888         8   `Y8o. `Y8888       8 8888
+	`8 8888       .8' `8 8888       ,8P  8      `Y8o. `Y8       8 8888       8 8888         8      `Y8o. `Y8       8 8888
+	   8888     ,88'   ` 8888     ,88'   8         `Y8o.`       8 8888       8 8888         8         `Y8o.`       8 8888
+	    `8888888P'        `8888888P'     8            `Yo       8 8888       8 888888888888 8            `Yo       8 8888
+ -->
+
+	<div class="container row vMargin16">
+		<div class="col-12 hPadding32">
+			
+			<h3>Simple button</h3>
+			<button>Button</button>		
+			<input type="button" value="INPUT">
+			<input type="submit" value="INPUT SUBMIT">
+			<input type="reset" value="INPUT RESET">
+			<p>Simple <b>button tag</b>, <b>input</b> with type as <i>button</i> or <i>submit</i> or <i>reset</i> will result in these, respectively.</p>
+			<hr>
+			<h3>bordered buttons</h3>
+			<button class="buttonDarkGrey1">BUTTON</button>
+			<button class="buttonRed1">BUTTON</button>
+			<button class="buttonBlueViolet1">BUTTON</button>
+			<button class="buttonGreen1">BUTTON</button>
+			<button class="buttonDodgerBlue1">BUTTON</button>
+			<button class="buttonOrange1">BUTTON</button>
+			<button class="buttonLightGrey1">BUTTON</button>
+			<p> Bordered buttons have matching text and border color while the background being white, to define a bordered button 
+			provide a button with <b>buttonColorName1</b> class. <br>
+			Available Classes are -<br>
+			</p>
+			<p>
+				<ol>
+					<li>buttonDarkGrey1</li>
+					<li>buttonRed1</li>
+					<li>buttonBlueViolet1</li>
+					<li>buttonGreen1</li>
+					<li>buttonDodgerBlue1</li>
+					<li>buttonOrange1</li>
+					<li>buttonLightGrey1</li>
+				</ol>
+			</p>
+			<hr>
+
+			<h3>color filled buttons</h3>
+			<button class="buttonDarkGrey2">BUTTON</button>
+			<button class="buttonRed2">BUTTON</button>
+			<button class="buttonBlueViolet2">BUTTON</button>
+			<button class="buttonGreen2">BUTTON</button>
+			<button class="buttonDodgerBlue2">BUTTON</button>
+			<button class="buttonOrange2">BUTTON</button>
+			<button class="buttonLightGrey2">BUTTON</button>
+			<p> Colour filled buttons have matching background and border color while the text being white, to define a color filled button 
+			provide a button with <b>buttonColorName2</b> class. <br>
+			Available Classes are -<br>
+			</p>
+			<p>
+				<ol>
+					<li>buttonDarkGrey2</li>
+					<li>buttonRed2</li>
+					<li>buttonBlueViolet2</li>
+					<li>buttonGreen2</li>
+					<li>buttonDodgerBlue2</li>
+					<li>buttonOrange2</li>
+					<li>buttonLightGrey2</li>
+				</ol>
+			</p>
+			<hr>
+			<h3>anchor buttons</h3>
+			<a href="#" class="button buttonDarkGrey2">Anchor</a>
+			<a href="#" class="button buttonRed2">Anchor</a>
+			<a href="#" class="button buttonBlueViolet2">Anchor</a>
+			<a href="#" class="button buttonGreen2">Anchor</a>
+			<a href="#" class="button buttonDodgerBlue2">Anchor</a>
+			<a href="#" class="button buttonOrange2">Anchor</a>
+			<a href="#" class="button buttonLightGrey2">Anchor</a>
+			<p> The <b>button</b> class can be applied to most of the elements to provide them with a look of button, further color
+			classes can be used in addition to provide a better look like in here. <br>
+			Here an anchor tag <b>a</b> is used with <b>button</b> class in addition with respective Color class as per choice.</p>
+			<hr>
+			<h3>Rounded Buttons</h3>
+			<input type="button" class=" buttonRounded" value="INPUT">
+			<button class="buttonDarkGrey1 buttonRounded">BUTTON</button>
+			<button class="buttonDodgerBlue2 buttonRounded">BUTTON</button>
+			<a href="#" class="button buttonGreen2 buttonRounded">Anchor</a>
+			<p> The class <b>buttonRounded</b> can be added to give a rounded corners to any button or even any other element.</p>
+			
+
+		</div>
+	</div>
+	<hr>
+
+	<!--
+		
+		8 8888888888       ,o888888o.         ,o888888o. 8888888 8888888888 8 8888888888   8 888888888o.
+		8 8888          . 8888     `88.    . 8888     `88.     8 8888       8 8888         8 8888    `88.
+		8 8888         ,8 8888       `8b  ,8 8888       `8b    8 8888       8 8888         8 8888     `88
+		8 8888         88 8888        `8b 88 8888        `8b   8 8888       8 8888         8 8888     ,88
+		8 888888888888 88 8888         88 88 8888         88   8 8888       8 888888888888 8 8888.   ,88'
+		8 8888         88 8888         88 88 8888         88   8 8888       8 8888         8 888888888P'
+		8 8888         88 8888        ,8P 88 8888        ,8P   8 8888       8 8888         8 8888`8b
+		8 8888         `8 8888       ,8P  `8 8888       ,8P    8 8888       8 8888         8 8888 `8b.
+		8 8888          ` 8888     ,88'    ` 8888     ,88'     8 8888       8 8888         8 8888   `8b.
+		8 8888             `8888888P'         `8888888P'       8 8888       8 888888888888 8 8888     `88.
+	 -->
+
+	<footer class="row">
+		<h4>&copy; the fallen merc</h4>
+	</footer>
+</body>
+</html>

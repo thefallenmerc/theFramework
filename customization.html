@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Framework</title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link rel="stylesheet" href="res/css/theframework.css">
+	<script src="res/js/jquery.min.js"></script>
+	<script src="res/js/theframework.js"></script>
+</head>
+<body>
+<!--
+	
+	b.             8          .8. `8.`888b           ,8' 8 888888888o          .8.          8 888888888o.
+	888o.          8         .888. `8.`888b         ,8'  8 8888    `88.       .888.         8 8888    `88.
+	Y88888o.       8        :88888. `8.`888b       ,8'   8 8888     `88      :88888.        8 8888     `88
+	.`Y888888o.    8       . `88888. `8.`888b     ,8'    8 8888     ,88     . `88888.       8 8888     ,88
+	8o. `Y888888o. 8      .8. `88888. `8.`888b   ,8'     8 8888.   ,88'    .8. `88888.      8 8888.   ,88'
+	8`Y8o. `Y88888o8     .8`8. `88888. `8.`888b ,8'      8 8888888888     .8`8. `88888.     8 888888888P'
+	8   `Y8o. `Y8888    .8' `8. `88888. `8.`888b8'       8 8888    `88.  .8' `8. `88888.    8 8888`8b
+	8      `Y8o. `Y8   .8'   `8. `88888. `8.`888'        8 8888      88 .8'   `8. `88888.   8 8888 `8b.
+	8         `Y8o.`  .888888888. `88888. `8.`8'         8 8888    ,88'.888888888. `88888.  8 8888   `8b.
+	8            `Yo .8'       `8. `88888. `8.`          8 888888888P .8'       `8. `88888. 8 8888     `88.
+ -->
+
+	
+	<nav class="navbar">
+		<div class="navHead">
+			<a href="JavaScript:void(0)" class="noDeco linkActive"><b>THE FRAMEWORK</b></a>
+		</div>
+		<div class="navBody">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="typography.html">TYPOGRAPHY</a></li>				<li><a href="structure.html">STRUCTURE</a></li>
+				<li><a href="customization.html">customization</a></li>
+				<li class="dropHead"><a href="buttons.html">Buttons</a>
+					<ul>
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="buttons.html">Anchor Buttons</a></li>
+						<li><a href="buttons.html">Inverted Buttons</a></li>
+					</ul>
+				</li>
+				<li><a href="additionals.html">additionals</a></li>
+				<li><a href="table.html">TABLES</a></li><li><a href="forms.html">FORMS</a></li>
+				<li><a href="example.html">EXAMPLE</a></li>
+				<li><a href="error.html">Error</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</div>
+	</nav>
+	<hr>
+<!--
+	
+	8 8888        8 8 8888888888            .8.          8 888888888o.      8 8888888888   8 888888888o.
+	8 8888        8 8 8888                 .888.         8 8888    `^888.   8 8888         8 8888    `88.
+	8 8888        8 8 8888                :88888.        8 8888        `88. 8 8888         8 8888     `88
+	8 8888        8 8 8888               . `88888.       8 8888         `88 8 8888         8 8888     ,88
+	8 8888        8 8 888888888888      .8. `88888.      8 8888          88 8 888888888888 8 8888.   ,88'
+	8 8888        8 8 8888             .8`8. `88888.     8 8888          88 8 8888         8 888888888P'
+	8 8888888888888 8 8888            .8' `8. `88888.    8 8888         ,88 8 8888         8 8888`8b
+	8 8888        8 8 8888           .8'   `8. `88888.   8 8888        ,88' 8 8888         8 8888 `8b.
+	8 8888        8 8 8888          .888888888. `88888.  8 8888    ,o88P'   8 8888         8 8888   `8b.
+	8 8888        8 8 888888888888 .8'       `8. `88888. 8 888888888P'      8 888888888888 8 8888     `88.
+ -->
+	<header class="row">
+		<h2>the framework</h2>
+	</header>
+	<hr>
+<!--
+	
+	    ,o888888o.        ,o888888o.     b.             8 8888888 8888888888 8 8888888888   b.             8 8888888 8888888888
+	   8888     `88.   . 8888     `88.   888o.          8       8 8888       8 8888         888o.          8       8 8888
+	,8 8888       `8. ,8 8888       `8b  Y88888o.       8       8 8888       8 8888         Y88888o.       8       8 8888
+	88 8888           88 8888        `8b .`Y888888o.    8       8 8888       8 8888         .`Y888888o.    8       8 8888
+	88 8888           88 8888         88 8o. `Y888888o. 8       8 8888       8 888888888888 8o. `Y888888o. 8       8 8888
+	88 8888           88 8888         88 8`Y8o. `Y88888o8       8 8888       8 8888         8`Y8o. `Y88888o8       8 8888
+	88 8888           88 8888        ,8P 8   `Y8o. `Y8888       8 8888       8 8888         8   `Y8o. `Y8888       8 8888
+	`8 8888       .8' `8 8888       ,8P  8      `Y8o. `Y8       8 8888       8 8888         8      `Y8o. `Y8       8 8888
+	   8888     ,88'   ` 8888     ,88'   8         `Y8o.`       8 8888       8 8888         8         `Y8o.`       8 8888
+	    `8888888P'        `8888888P'     8            `Yo       8 8888       8 888888888888 8            `Yo       8 8888
+ -->
+
+	<div class="container row vMargin16">
+		<div class="col-12 hPadding32">
+		<h3>Text Colors</h3>
+		<p>links can be colored using predefined color classes for example
+		<ul>
+			<li><a href="#" class="textRed">like this</a> using <b>textRed</b> class </li>
+			<li><a href="#" class="textViolet">like this</a> using <b>textViolet</b> class </li>
+			<li><a href="#" class="textGreen">like this</a> using <b>textGreen</b> class </li>
+			<li><a href="#" class="textBlue">like this</a> using <b>textBlue</b> class </li>
+			<li><a href="#" class="textOrange">like this</a> using <b>textOrange</b> class </li>
+			<li><a href="#" class="textYellow">like this</a> using <b>textYellow</b> class</li>
+		</ul>
+		<p>Same coloring can be applied to text content too like <span class="textBlue">this</span> span with class <b>textBlue</b>.</p>
+		<hr>
+		<h3>Border colors</h3>
+		<p>Solid borders of <b>1px</b> size and respective <b>border-color</b> can be applied to almost any element by using respective classes as shown: </p>
+		<ul class="borderLightGrey">
+			<li><a href="#" class="borderRed">like this</a> using <b>textRed</b> class </li>
+			<li><a href="#" class="borderViolet">like this</a> using <b>textViolet</b> class </li>
+			<li><a href="#" class="borderGreen">like this</a> using <b>textGreen</b> class </li>
+			<li><a href="#" class="borderBlue">like this</a> using <b>textBlue</b> class </li>
+			<li><a href="#" class="borderOrange">like this</a> using <b>textOrange</b> class </li>
+			<li><a href="#" class="borderYellow">like this</a> using <b>textYellow</b> class</li>
+		</ul>
+		<p>div, panels, containers, row, columns none of them are spared.</p>
+
+		<hr>
+		<h3>Background colors</h3>
+		<p>Just as the border colors, the background colors of almost any element can be change by using respective predefined classes.</p>
+		<p>For example consider these columns:</p>
+		<div class="row">
+			<div class="col-4 bgRed textWhite padding16 centerAlign">this is a div with background class <b>bgRed</b></div>
+			<div class="col-4 bgViolet textWhite padding16 centerAlign">this is a div with background class <b>bgViolet</b></div>
+			<div class="col-4 bgGreen padding16 centerAlign">this is a div with background class <b>bgGreen</b></div>
+			<div class="col-4 bgBlue textWhite padding16 centerAlign">this is a div with background class <b>bgBlue</b></div>
+			<div class="col-4 bgOrange textWhite padding16 centerAlign">this is a div with background class <b>bgOrange</b></div>
+			<div class="col-4 bgYellow padding16 centerAlign">this is a div with background class <b>bgYellow</b></div>
+			<div class="col-4 bgDarkGrey textWhite padding16 centerAlign">this is a div with background class <b>bgDarkGrey</b></div>
+		</div>
+		<p><b>P.S. </b> the different text color in different divs is due to addition textColor classes for better viewing.
+		The <b>bg*</b> classes do <b>not</b> change text color.</p>
+		<hr>
+		<h3>Curver Border Joints</h3>
+		<p>Border radius of almost any elemnt can be set by using <b>roundedX</b> classes  where the value of <b>X</b> can be any of the following [0,4,8,16,24,32,48,64,128]. For Example</p>
+
+		<div class="row">
+			<div class="col-4 bgRed textWhite padding16 centerAlign rounded4">this is a div with class <b>rounded4</b></div>
+			<div class="col-4 bgViolet textWhite vPadding16 centerAlign rounded8">this is a div with class <b>rounded8</b></div>
+			<div class="col-4 bgGreen vPadding16 centerAlign rounded16">this is a div with class <b>rounded16</b></div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div class="col-12 bgBlue textWhite vPadding24 centerAlign rounded24">this is a div with class <b>rounded24</b></div>
+				<div class="col-12 bgOrange textWhite vPadding32 centerAlign rounded32">this is a div with class <b>rounded32</b></div>
+			</div>
+			<div class="col-6 bgYellow vPadding64 centerAlign rounded64">this is a div with class <b>rounded64</b></div>
+			<div class="col-12 bgDarkGrey textWhite vPadding128 centerAlign rounded128">this is a div with class <b>rounded128</b>.... and it looks ugly. Hope you never user it.</div>
+		</div>
+		<!-- content end -->
+		</div>
+	</div>
+	<hr>
+
+	<!--
+		
+		8 8888888888       ,o888888o.         ,o888888o. 8888888 8888888888 8 8888888888   8 888888888o.
+		8 8888          . 8888     `88.    . 8888     `88.     8 8888       8 8888         8 8888    `88.
+		8 8888         ,8 8888       `8b  ,8 8888       `8b    8 8888       8 8888         8 8888     `88
+		8 8888         88 8888        `8b 88 8888        `8b   8 8888       8 8888         8 8888     ,88
+		8 888888888888 88 8888         88 88 8888         88   8 8888       8 888888888888 8 8888.   ,88'
+		8 8888         88 8888         88 88 8888         88   8 8888       8 8888         8 888888888P'
+		8 8888         88 8888        ,8P 88 8888        ,8P   8 8888       8 8888         8 8888`8b
+		8 8888         `8 8888       ,8P  `8 8888       ,8P    8 8888       8 8888         8 8888 `8b.
+		8 8888          ` 8888     ,88'    ` 8888     ,88'     8 8888       8 8888         8 8888   `8b.
+		8 8888             `8888888P'         `8888888P'       8 8888       8 888888888888 8 8888     `88.
+	 -->
+
+	<footer class="row">
+		<h4>maximum efforts</h4>
+	</footer>
+</body>
+</html>

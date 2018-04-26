@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Framework</title>
+	<link rel="stylesheet" href="res/css/theframework.css">
+	<script src="res/js/jquery.min.js"></script>
+	<script src="res/js/theframework.js"></script>
+</head>
+<body>
+<!--
+	
+	b.             8          .8. `8.`888b           ,8' 8 888888888o          .8.          8 888888888o.
+	888o.          8         .888. `8.`888b         ,8'  8 8888    `88.       .888.         8 8888    `88.
+	Y88888o.       8        :88888. `8.`888b       ,8'   8 8888     `88      :88888.        8 8888     `88
+	.`Y888888o.    8       . `88888. `8.`888b     ,8'    8 8888     ,88     . `88888.       8 8888     ,88
+	8o. `Y888888o. 8      .8. `88888. `8.`888b   ,8'     8 8888.   ,88'    .8. `88888.      8 8888.   ,88'
+	8`Y8o. `Y88888o8     .8`8. `88888. `8.`888b ,8'      8 8888888888     .8`8. `88888.     8 888888888P'
+	8   `Y8o. `Y8888    .8' `8. `88888. `8.`888b8'       8 8888    `88.  .8' `8. `88888.    8 8888`8b
+	8      `Y8o. `Y8   .8'   `8. `88888. `8.`888'        8 8888      88 .8'   `8. `88888.   8 8888 `8b.
+	8         `Y8o.`  .888888888. `88888. `8.`8'         8 8888    ,88'.888888888. `88888.  8 8888   `8b.
+	8            `Yo .8'       `8. `88888. `8.`          8 888888888P .8'       `8. `88888. 8 8888     `88.
+ -->
+
+	
+	<nav class="navbar">
+		<div class="navHead">
+			<a href="JavaScript:void(0)" class="noDeco linkActive"><b>THE FRAMEWORK</b></a>
+		</div>
+		<div class="navBody">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="typography.html">TYPOGRAPHY</a></li>				<li><a href="structure.html">STRUCTURE</a></li>
+				<li><a href="customization.html">customization</a></li>
+				<li class="dropHead"><a href="buttons.html">Buttons</a>
+					<ul>
+						<li><a href="buttons.html">Buttons</a></li>
+						<li><a href="buttons.html">Anchor Buttons</a></li>
+						<li><a href="buttons.html">Inverted Buttons</a></li>
+					</ul>
+				</li>
+				<li><a href="additionals.html">additionals</a></li>
+				<li><a href="table.html">TABLES</a></li><li><a href="forms.html">FORMS</a></li>
+				<li><a href="example.html">EXAMPLE</a></li>
+				<li><a href="error.html">Error</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</div>
+	</nav>
+	<hr>
+<!--
+	
+	8 8888        8 8 8888888888            .8.          8 888888888o.      8 8888888888   8 888888888o.
+	8 8888        8 8 8888                 .888.         8 8888    `^888.   8 8888         8 8888    `88.
+	8 8888        8 8 8888                :88888.        8 8888        `88. 8 8888         8 8888     `88
+	8 8888        8 8 8888               . `88888.       8 8888         `88 8 8888         8 8888     ,88
+	8 8888        8 8 888888888888      .8. `88888.      8 8888          88 8 888888888888 8 8888.   ,88'
+	8 8888        8 8 8888             .8`8. `88888.     8 8888          88 8 8888         8 888888888P'
+	8 8888888888888 8 8888            .8' `8. `88888.    8 8888         ,88 8 8888         8 8888`8b
+	8 8888        8 8 8888           .8'   `8. `88888.   8 8888        ,88' 8 8888         8 8888 `8b.
+	8 8888        8 8 8888          .888888888. `88888.  8 8888    ,o88P'   8 8888         8 8888   `8b.
+	8 8888        8 8 888888888888 .8'       `8. `88888. 8 888888888P'      8 888888888888 8 8888     `88.
+ -->
+
+	<header class="row">
+		<h2>the framework</h2>
+	</header>
+	<hr>
+<!--
+	
+	    ,o888888o.        ,o888888o.     b.             8 8888888 8888888888 8 8888888888   b.             8 8888888 8888888888
+	   8888     `88.   . 8888     `88.   888o.          8       8 8888       8 8888         888o.          8       8 8888
+	,8 8888       `8. ,8 8888       `8b  Y88888o.       8       8 8888       8 8888         Y88888o.       8       8 8888
+	88 8888           88 8888        `8b .`Y888888o.    8       8 8888       8 8888         .`Y888888o.    8       8 8888
+	88 8888           88 8888         88 8o. `Y888888o. 8       8 8888       8 888888888888 8o. `Y888888o. 8       8 8888
+	88 8888           88 8888         88 8`Y8o. `Y88888o8       8 8888       8 8888         8`Y8o. `Y88888o8       8 8888
+	88 8888           88 8888        ,8P 8   `Y8o. `Y8888       8 8888       8 8888         8   `Y8o. `Y8888       8 8888
+	`8 8888       .8' `8 8888       ,8P  8      `Y8o. `Y8       8 8888       8 8888         8      `Y8o. `Y8       8 8888
+	   8888     ,88'   ` 8888     ,88'   8         `Y8o.`       8 8888       8 8888         8         `Y8o.`       8 8888
+	    `8888888P'        `8888888P'     8            `Yo       8 8888       8 888888888888 8            `Yo       8 8888
+ -->
+
+	<div class="container row vMargin16">
+		<div class="col-6 borderRight borderLightGrey">
+		<h3>Contact US</h3>
+		<form action="" class="row hPadding16">
+			<label class="row">
+				USERNAME
+				<input type="text" placeholder="Name">
+			</label>
+			<label class="row">
+				Email
+				<input type="email" placeholder="Email">
+			</label>
+			<label class="row">
+				Gender
+				<select name="" id="">
+					<option value="0">Male</option>
+					<option value="1">Female</option>
+					<option value="2">Other</option>
+				</select>
+			</label>
+			<label class="row">
+				Message
+				<textarea name="" id="" cols="30" rows="10"></textarea>
+			</label>
+			<input type="button" value="SUBMIT" class="buttonBlock">
+		</form>
+		</div>
+		
+		<div class="col-6">
+			<div class="row">
+				<div class="col-6 hPadding16">
+					<h3>Some example forms</h3>
+					<form action="" class="row">
+						<div class="row">
+							<label class="formElement">
+								<input type="checkbox"> A check box
+							</label>
+						</div>
+						<div class="row">
+							
+							<label class="formElement">
+								<input name="radio" type="radio"> A check box
+							</label>
+							<label class="formElement">
+								<input name="radio" type="radio"> A check box
+							</label>
+						</div>
+						<div class="row">
+							<input type="file">
+						</div>
+					</form>
+				</div>
+				<div class="col-6">
+					<form action="form.php" class="row hPadding16">
+						<h3 class="centerAlign">LOGIN EXAMPLE</h3>
+						<div class="row">
+							<label>
+								Username:
+								<input type="text">
+							</label>
+						</div>
+						<div class="row">
+							<label>
+								Username:
+								<select name="" id="">
+									<option value="">Option</option>
+									<option value="">Option</option>
+									<option value="">Option</option>
+									<option value="">Option</option>
+								</select>	
+							</label>
+						</div>
+						<div class="row">
+							<button class="buttonBlock">Yo</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<form action="form.php" class="row">
+				<h3 class="centerAlign">LOGIN EXAMPLE 2</h3>
+				<div class="row hPadding16">
+					<div class="col-5">
+							<input type="text" placeholder="input">
+					</div>
+					<div class="col-5">
+							<input type="text" placeholder="input">
+					</div>
+					<div class="col-2">
+						<input type="submit" class="button buttonBlock" value="Go">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<hr>
+
+	<!--
+		
+		8 8888888888       ,o888888o.         ,o888888o. 8888888 8888888888 8 8888888888   8 888888888o.
+		8 8888          . 8888     `88.    . 8888     `88.     8 8888       8 8888         8 8888    `88.
+		8 8888         ,8 8888       `8b  ,8 8888       `8b    8 8888       8 8888         8 8888     `88
+		8 8888         88 8888        `8b 88 8888        `8b   8 8888       8 8888         8 8888     ,88
+		8 888888888888 88 8888         88 88 8888         88   8 8888       8 888888888888 8 8888.   ,88'
+		8 8888         88 8888         88 88 8888         88   8 8888       8 8888         8 888888888P'
+		8 8888         88 8888        ,8P 88 8888        ,8P   8 8888       8 8888         8 8888`8b
+		8 8888         `8 8888       ,8P  `8 8888       ,8P    8 8888       8 8888         8 8888 `8b.
+		8 8888          ` 8888     ,88'    ` 8888     ,88'     8 8888       8 8888         8 8888   `8b.
+		8 8888             `8888888P'         `8888888P'       8 8888       8 888888888888 8 8888     `88.
+	 -->
+
+	<footer class="row">
+		<h4>&copy; the fallen merc</h4>
+	</footer>
+</body>
+</html>
